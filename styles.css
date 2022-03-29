@@ -1,0 +1,72 @@
+html, body {
+    background-color: #557B83;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    min-height: 100%;
+    font-family: 'helvetica neue';
+}
+  
+h1 {
+    color: #fff;
+    padding: 10px;
+}
+
+#heading {
+    margin: 35px auto;
+    background-color: #61A4BC;
+    text-align: center;
+}
+  
+input {
+    text-align: right;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    background-color: #F7F5F2;
+    color: grey;
+    font-size: 20px;
+    font-weight: 200;
+    width: 90%;
+    margin: 20px;
+    margin-bottom: 0;
+}
+  
+.box {
+    max-width: 400px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+  
+.row {
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    padding: 5px;
+    margin: 0.5%;
+    width: 22%;
+    border-width: 8px;
+    border-radius: 9px;
+    border-color: transparent;
+    background-color: #C69B7B;
+    min-height: 2%;
+    height: 5%;
+}
+
+button:hover {
+    background-color: #F7CCAC;
+}
+
+footer {
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 1% 40%;
+    height: 45px;
+}
